@@ -13,9 +13,10 @@ namespace GuessingValeriaV
 {
     public partial class frmGuess : Form
     {
-        System.Media.SoundPlayer correct = new System.Media.SoundPlayer();
+       // System.Media.SoundPlayer correct = new System.Media.SoundPlayer();
         public frmGuess()
-        { 
+        {
+           // correct.SoundLocation = "correct.wav";
 
            
             InitializeComponent();
@@ -28,7 +29,7 @@ namespace GuessingValeriaV
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-
+           // correct.Play();
         }
     }
 }
