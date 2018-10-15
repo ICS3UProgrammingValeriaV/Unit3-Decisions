@@ -78,6 +78,7 @@
             this.radRockUser.Size = new System.Drawing.Size(114, 100);
             this.radRockUser.TabIndex = 1;
             this.radRockUser.UseVisualStyleBackColor = true;
+            this.radRockUser.CheckedChanged += new System.EventHandler(this.radRockUser_CheckedChanged);
             // 
             // lblComputer
             // 
@@ -134,12 +135,13 @@
             this.btnPlay.TabIndex = 8;
             this.btnPlay.Text = "Play";
             this.btnPlay.UseVisualStyleBackColor = false;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // frmRockPaperScissors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 536);
+            this.ClientSize = new System.Drawing.Size(465, 563);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.radScissorsComp);
             this.Controls.Add(this.radPaperComp);
