@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RockPaperScissorsValerV
 {
-    public partial class Form1 : Form
+    public partial class frmRockPaperScissors : Form
     {
-        public Form1()
+        public frmRockPaperScissors()
         {
             InitializeComponent();
         }
