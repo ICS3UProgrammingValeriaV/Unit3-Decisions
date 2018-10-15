@@ -27,19 +27,25 @@ namespace ChocolateBoxesValeriaV
                 lblPrize.Text = "Prize";
                 lblPrize.Show();
             }
-            else if (boxes< 10)
+            else if (boxes < 0)
+            {
+                lblPrize.Text = "Enter a positive integer";
+                lblPrize.Show();
+            }
+            else if (boxes < 10) 
             {
                 lblPrize.Text = "Honorable Mention";
                 lblPrize.Show();
             }
-            else if (20<boxes && boxes>10)
+            
+            /*else if (boxes < 20)
             {
                 lblPrize.Text = "Small Prize";
                 lblPrize.Show();
-            }
+            }*/
             else
             {
-                lblPrize.Text = "Enter a positive integer";
+                lblPrize.Text = "Small Prize";
                 lblPrize.Show();
             }
         }
