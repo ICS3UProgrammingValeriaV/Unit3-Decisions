@@ -39,8 +39,11 @@
             this.btnPlay = new System.Windows.Forms.Button();
             this.grbUser = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+<<<<<<< HEAD
+=======
             this.lblUserPoints = new System.Windows.Forms.Label();
             this.lblComputerPoints = new System.Windows.Forms.Label();
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.grbUser.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -60,7 +63,11 @@
             // 
             this.radScissorsUser.AutoSize = true;
             this.radScissorsUser.Image = global::RockPaperScissorsValerV.Properties.Resources.Scissors;
+<<<<<<< HEAD
+            this.radScissorsUser.Location = new System.Drawing.Point(30, 259);
+=======
             this.radScissorsUser.Location = new System.Drawing.Point(30, 302);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.radScissorsUser.Name = "radScissorsUser";
             this.radScissorsUser.Size = new System.Drawing.Size(114, 100);
             this.radScissorsUser.TabIndex = 3;
@@ -71,7 +78,11 @@
             // 
             this.radPaperUser.AutoSize = true;
             this.radPaperUser.Image = global::RockPaperScissorsValerV.Properties.Resources.paper;
+<<<<<<< HEAD
+            this.radPaperUser.Location = new System.Drawing.Point(30, 153);
+=======
             this.radPaperUser.Location = new System.Drawing.Point(30, 196);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.radPaperUser.Name = "radPaperUser";
             this.radPaperUser.Size = new System.Drawing.Size(114, 100);
             this.radPaperUser.TabIndex = 2;
@@ -82,7 +93,11 @@
             // 
             this.radRockUser.AutoSize = true;
             this.radRockUser.Image = global::RockPaperScissorsValerV.Properties.Resources.rock3;
+<<<<<<< HEAD
+            this.radRockUser.Location = new System.Drawing.Point(30, 47);
+=======
             this.radRockUser.Location = new System.Drawing.Point(30, 90);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.radRockUser.Name = "radRockUser";
             this.radRockUser.Size = new System.Drawing.Size(114, 100);
             this.radRockUser.TabIndex = 1;
@@ -105,7 +120,11 @@
             this.radRockComp.AutoSize = true;
             this.radRockComp.Enabled = false;
             this.radRockComp.Image = global::RockPaperScissorsValerV.Properties.Resources.rock3;
+<<<<<<< HEAD
+            this.radRockComp.Location = new System.Drawing.Point(40, 259);
+=======
             this.radRockComp.Location = new System.Drawing.Point(40, 90);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.radRockComp.Name = "radRockComp";
             this.radRockComp.Size = new System.Drawing.Size(114, 100);
             this.radRockComp.TabIndex = 5;
@@ -116,7 +135,11 @@
             this.radPaperComp.AutoSize = true;
             this.radPaperComp.Enabled = false;
             this.radPaperComp.Image = global::RockPaperScissorsValerV.Properties.Resources.paper;
+<<<<<<< HEAD
+            this.radPaperComp.Location = new System.Drawing.Point(40, 47);
+=======
             this.radPaperComp.Location = new System.Drawing.Point(40, 196);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.radPaperComp.Name = "radPaperComp";
             this.radPaperComp.Size = new System.Drawing.Size(114, 100);
             this.radPaperComp.TabIndex = 6;
@@ -127,7 +150,11 @@
             this.radScissorsComp.AutoSize = true;
             this.radScissorsComp.Enabled = false;
             this.radScissorsComp.Image = global::RockPaperScissorsValerV.Properties.Resources.Scissors;
+<<<<<<< HEAD
+            this.radScissorsComp.Location = new System.Drawing.Point(40, 153);
+=======
             this.radScissorsComp.Location = new System.Drawing.Point(40, 302);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.radScissorsComp.Name = "radScissorsComp";
             this.radScissorsComp.Size = new System.Drawing.Size(114, 100);
             this.radScissorsComp.TabIndex = 7;
@@ -148,31 +175,47 @@
             // 
             // grbUser
             // 
+<<<<<<< HEAD
+=======
             this.grbUser.Controls.Add(this.lblUserPoints);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.grbUser.Controls.Add(this.lblUser);
             this.grbUser.Controls.Add(this.radRockUser);
             this.grbUser.Controls.Add(this.radPaperUser);
             this.grbUser.Controls.Add(this.radScissorsUser);
             this.grbUser.Location = new System.Drawing.Point(35, 40);
             this.grbUser.Name = "grbUser";
+<<<<<<< HEAD
+            this.grbUser.Size = new System.Drawing.Size(200, 369);
+=======
             this.grbUser.Size = new System.Drawing.Size(200, 408);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.grbUser.TabIndex = 9;
             this.grbUser.TabStop = false;
             // 
             // groupBox1
             // 
+<<<<<<< HEAD
+=======
             this.groupBox1.Controls.Add(this.lblComputerPoints);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.groupBox1.Controls.Add(this.lblComputer);
             this.groupBox1.Controls.Add(this.radPaperComp);
             this.groupBox1.Controls.Add(this.radScissorsComp);
             this.groupBox1.Controls.Add(this.radRockComp);
             this.groupBox1.Location = new System.Drawing.Point(241, 40);
             this.groupBox1.Name = "groupBox1";
+<<<<<<< HEAD
+            this.groupBox1.Size = new System.Drawing.Size(212, 369);
+=======
             this.groupBox1.Size = new System.Drawing.Size(212, 408);
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+<<<<<<< HEAD
+=======
             // lblUserPoints
             // 
             this.lblUserPoints.AutoSize = true;
@@ -194,6 +237,7 @@
             this.lblComputerPoints.TabIndex = 5;
             this.lblComputerPoints.Text = "Points:";
             // 
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
             // frmRockPaperScissors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -225,8 +269,11 @@
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.GroupBox grbUser;
         private System.Windows.Forms.GroupBox groupBox1;
+<<<<<<< HEAD
+=======
         private System.Windows.Forms.Label lblUserPoints;
         private System.Windows.Forms.Label lblComputerPoints;
+>>>>>>> 8d7bf4a2402b456db9fc77dd4fdd5445395326b2
     }
 }
 
