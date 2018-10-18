@@ -20,26 +20,33 @@ namespace ChocolateBoxesValeriaV
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            int boxes = int.Parse(txtBoxes.Text);
-
-            if (boxes > 20)
+            int boxes;
+            if (int.TryParse(txtBoxes.Text, out boxes))
             {
-                lblPrize.Text = "Prize";
-                lblPrize.Show();
-            }
-            else if (boxes< 10)
-            {
-                lblPrize.Text = "Honorable Mention";
-                lblPrize.Show();
-            }
-            else if (20<boxes && boxes>10)
-            {
-                lblPrize.Text = "Small Prize";
-                lblPrize.Show();
+                if (boxes > 20)
+                {
+                    lblPrize.Text = "Prize";
+                    lblPrize.Show();
+                }
+                else if (boxes < 0)
+                {
+                    lblPrize.Text = "Enter a positive integer";
+                    lblPrize.Show();
+                }
+                else if (boxes < 10)
+                {
+                    lblPrize.Text = "Honorable Mention";
+                    lblPrize.Show();
+                }
+                else if (boxes < 20)
+                {
+                    lblPrize.Text = "Small Prize";
+                    lblPrize.Show();
+                }
             }
             else
             {
-                lblPrize.Text = "Enter a positive integer";
+                lblPrize.Text = "Enter an integer";
                 lblPrize.Show();
             }
         }
