@@ -82,7 +82,7 @@
             this.Controls.Add(this.txtBoxes);
             this.Controls.Add(this.lblEnter);
             this.Name = "ChocolateBoxesForm";
-            this.Text = "Form1";
+            this.Text = "Chocolate Boxes by Valeria V";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Created by: Valeria Veverita
+ * Created on: 19-October-2018
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #19 - Chocolate Boxes
+ * This program uses nested if else statements
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,68 +22,48 @@ namespace ChocolateBoxesValeriaV
         public ChocolateBoxesForm()
         {
             InitializeComponent();
+            //Hide the lbl
             lblPrize.Hide();
         }
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+            //Create the variable
             int boxes;
+            //Convert the value from the textbox to an integer and check if it is an integer
             if (int.TryParse(txtBoxes.Text, out boxes))
             {
+                //if it's bigger than 20, give the user a prize
                 if (boxes > 20)
                 {
                     lblPrize.Text = "Prize";
                     lblPrize.Show();
                 }
+                //if it's less than 0, ask the user to enter a positive number
                 else if (boxes < 0)
                 {
                     lblPrize.Text = "Enter a positive integer";
                     lblPrize.Show();
                 }
+                //if it's less than 10, honorable metion
                 else if (boxes < 10)
                 {
                     lblPrize.Text = "Honorable Mention";
                     lblPrize.Show();
                 }
+                //if it's less than 20, the user gets a small prize
                 else if (boxes < 20)
                 {
                     lblPrize.Text = "Small Prize";
                     lblPrize.Show();
                 }
             }
+            //if the user doesn't enter an integer, ask the user to enter an integer
             else
             {
                 lblPrize.Text = "Enter an integer";
-=======
-            int boxes = int.Parse(txtBoxes.Text);
+                lblPrize.Show();
 
-            if (boxes > 20)
-            {
-                lblPrize.Text = "Prize";
-                lblPrize.Show();
-            }
-            else if (boxes < 0)
-            {
-                lblPrize.Text = "Enter a positive integer";
-                lblPrize.Show();
-            }
-            else if (boxes < 10) 
-            {
-                lblPrize.Text = "Honorable Mention";
-                lblPrize.Show();
-            }
-            
-            /*else if (boxes < 20)
-            {
-                lblPrize.Text = "Small Prize";
-                lblPrize.Show();
-            }*/
-            else
-            {
-                lblPrize.Text = "Small Prize";
->>>>>>> 536aac407f97b9ef403e30a07848d64f0a0a2a7d
-                lblPrize.Show();
             }
         }
     }
