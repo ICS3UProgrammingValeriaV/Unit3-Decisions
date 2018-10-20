@@ -26,11 +26,14 @@ namespace FactorialDoWhileValeriaV
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            //create the variables and constants. Assign them
             int progessValue = 0;
             const int MAX_PROGRESS_VALUE = 100;
 
+            //CREATE THE WHILE LOOP
             do
             {
+                //while the progress value is less than 100, increase the value by 5
                 prbIncrease.Value = progessValue;
                 progessValue = progessValue + 5;
                 this.Refresh();
@@ -38,6 +41,11 @@ namespace FactorialDoWhileValeriaV
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmFactorial_Load(object sender, EventArgs e)
         {
 
         }
