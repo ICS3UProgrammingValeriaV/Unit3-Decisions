@@ -34,18 +34,22 @@
             // 
             // btnStart
             // 
-            this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStart.Location = new System.Drawing.Point(132, 87);
+            this.btnStart.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnStart.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnStart.Location = new System.Drawing.Point(128, 102);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(92, 39);
+            this.btnStart.Size = new System.Drawing.Size(92, 35);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "START";
-            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // prbIncrease
             // 
-            this.prbIncrease.Location = new System.Drawing.Point(61, 159);
+            this.prbIncrease.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.prbIncrease.ForeColor = System.Drawing.Color.Goldenrod;
+            this.prbIncrease.Location = new System.Drawing.Point(61, 168);
             this.prbIncrease.Name = "prbIncrease";
             this.prbIncrease.Size = new System.Drawing.Size(221, 43);
             this.prbIncrease.TabIndex = 1;
@@ -55,11 +59,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(367, 341);
             this.Controls.Add(this.prbIncrease);
             this.Controls.Add(this.btnStart);
             this.Name = "frmFactorial";
             this.Text = "Factorial Do While by Valeria V";
+            this.Load += new System.EventHandler(this.frmFactorial_Load);
             this.ResumeLayout(false);
 
         }
