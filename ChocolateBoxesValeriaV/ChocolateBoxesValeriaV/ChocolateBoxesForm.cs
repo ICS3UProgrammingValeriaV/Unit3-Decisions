@@ -39,24 +39,29 @@ namespace ChocolateBoxesValeriaV
                     lblPrize.Text = "Prize";
                     lblPrize.Show();
                 }
-                //if it's less than 0, ask the user to enter a positive number
-                else if (boxes < 0)
+                else
                 {
-                    lblPrize.Text = "Enter a positive integer";
-                    lblPrize.Show();
+                     //if it's less than 0, ask the user to enter a positive number
+                    if (boxes < 0)
+                    {
+                        lblPrize.Text = "Enter a positive integer";
+                        lblPrize.Show();
+                    }
+                    //if it's less than 10, honorable metion
+                    else if (boxes < 10)
+                    {
+                        lblPrize.Text = "Honorable Mention";
+                        lblPrize.Show();
+                    }
+                    //if it's less than 20, the user gets a small prize
+                    else if (boxes < 20)
+                    {
+                        lblPrize.Text = "Small Prize";
+                        lblPrize.Show();
+                    }
                 }
-                //if it's less than 10, honorable metion
-                else if (boxes < 10)
-                {
-                    lblPrize.Text = "Honorable Mention";
-                    lblPrize.Show();
-                }
-                //if it's less than 20, the user gets a small prize
-                else if (boxes < 20)
-                {
-                    lblPrize.Text = "Small Prize";
-                    lblPrize.Show();
-                }
+               
+                
             }
             //if the user doesn't enter an integer, ask the user to enter an integer
             else

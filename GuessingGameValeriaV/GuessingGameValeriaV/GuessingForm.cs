@@ -20,6 +20,11 @@ namespace GuessingGameValeriaV
 {
     public partial class frmGuessing : Form
     {
+        //declare the constants and variables
+        const int MIN_NUMB = 1;
+        const int MAX_NUMB = 10;
+        int generatedCorrect, answer;
+        Random correctGeneratedNumber = new Random();
         //Create two global Sound Variables
         System.Media.SoundPlayer correct = new System.Media.SoundPlayer();
         System.Media.SoundPlayer wrong = new System.Media.SoundPlayer();
@@ -38,11 +43,6 @@ namespace GuessingGameValeriaV
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            //declare the constants and variables
-            const int MIN_NUMB = 1;
-            const int MAX_NUMB = 10;
-            int generatedCorrect, answer;
-            Random correctGeneratedNumber = new Random();
 
             //convert user's answer into an integer
             answer = int.Parse(txtAnswer.Text);
