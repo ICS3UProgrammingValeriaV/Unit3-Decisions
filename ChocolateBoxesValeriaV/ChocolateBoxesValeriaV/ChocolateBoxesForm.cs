@@ -47,6 +47,12 @@ namespace ChocolateBoxesValeriaV
                         lblPrize.Text = "Enter a positive integer";
                         lblPrize.Show();
                     }
+                    //if it's equal to 0, the user gets a small prize
+                    else if (boxes == 0)
+                    {
+                        lblPrize.Text = "Enter an integer bigger than 0";
+                        lblPrize.Show();
+                    }
                     //if it's less than 10, honorable metion
                     else if (boxes < 10)
                     {
@@ -59,6 +65,7 @@ namespace ChocolateBoxesValeriaV
                         lblPrize.Text = "Small Prize";
                         lblPrize.Show();
                     }
+                  
                 }
                
                 
