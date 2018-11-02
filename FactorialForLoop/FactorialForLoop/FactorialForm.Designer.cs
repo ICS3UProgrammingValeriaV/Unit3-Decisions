@@ -77,10 +77,10 @@
             // lblAnswer
             // 
             this.lblAnswer.AutoSize = true;
-            this.lblAnswer.Font = new System.Drawing.Font("Impact", 20F);
-            this.lblAnswer.Location = new System.Drawing.Point(107, 312);
+            this.lblAnswer.Font = new System.Drawing.Font("Impact", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblAnswer.Location = new System.Drawing.Point(119, 317);
             this.lblAnswer.Name = "lblAnswer";
-            this.lblAnswer.Size = new System.Drawing.Size(201, 34);
+            this.lblAnswer.Size = new System.Drawing.Size(171, 28);
             this.lblAnswer.TabIndex = 4;
             this.lblAnswer.Text = "Enter an integer: ";
             // 
