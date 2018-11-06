@@ -35,12 +35,6 @@ namespace ControlObjectsValeriaV
                     {
                         aControlObject.BackColor = Color.DarkGoldenrod;
                         aControlObject.ForeColor = Color.Cornsilk;
-
-                      if (aControlObject.GetType() == typeof(Label) )
-                      {
-                        aControlObject.BackColor = Color.White;
-                        aControlObject.ForeColor = Color.Black;
-                      }
                     }
                 }
                 else if (counter == 2)
@@ -49,11 +43,6 @@ namespace ControlObjectsValeriaV
                     {
                         aControlObject.BackColor = Color.DarkOliveGreen;
                         aControlObject.ForeColor = Color.Honeydew;
-                      if (aControlObject.GetType() == typeof(Label))
-                      {
-                        aControlObject.BackColor = Color.White;
-                        aControlObject.ForeColor = Color.Black;
-                      }
                     }
                 }
                 else if (counter == 3)
@@ -62,11 +51,6 @@ namespace ControlObjectsValeriaV
                     {
                         aControlObject.BackColor = Color.DarkSlateGray;
                         aControlObject.ForeColor = Color.Azure;
-                       if (aControlObject.GetType() == typeof(Label))
-                       {
-                        aControlObject.BackColor = Color.White;
-                        aControlObject.ForeColor = Color.Black;
-                       }
                     }
                 }
                 else if (counter == 4)
@@ -75,11 +59,6 @@ namespace ControlObjectsValeriaV
                     {
                         aControlObject.BackColor = Color.Maroon;
                         aControlObject.ForeColor = Color.FloralWhite;
-                       if (aControlObject.GetType() == typeof(Label))
-                       {
-                        aControlObject.BackColor = Color.White;
-                        aControlObject.ForeColor = Color.Black;
-                       }
                     }
                 }
                 else if (counter == 5)
@@ -89,11 +68,6 @@ namespace ControlObjectsValeriaV
                       aControlObject.BackColor = Color.DarkSlateBlue;
                       aControlObject.ForeColor = Color.GhostWhite;
                       counter = 0;
-                      if (aControlObject.GetType() == typeof(Label))
-                      {
-                        aControlObject.BackColor = Color.White;
-                        aControlObject.ForeColor = Color.Black;
-                      }
                    }
                 }
 
