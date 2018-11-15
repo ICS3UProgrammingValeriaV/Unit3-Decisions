@@ -31,7 +31,7 @@ namespace Simplified21ValeriaV
         List<int> cardsList = new List<int>();
         List<Image> imagesList = new List<Image>();
         
-        //CARDS
+        //CARDS VALUES
         const int CARD_1 = 1;
         const int CARD_2 = 2;
         const int CARD_3 = 3;
@@ -42,6 +42,9 @@ namespace Simplified21ValeriaV
         const int CARD_8 = 8;
         const int CARD_9 = 9;
         const int CARD_10 = 10;
+
+        //CARDS IMAGES
+        
        
 
         public frmGame()       
