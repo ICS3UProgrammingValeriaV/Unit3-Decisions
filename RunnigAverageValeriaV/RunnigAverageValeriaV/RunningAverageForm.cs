@@ -47,12 +47,15 @@ namespace RunnigAverageValeriaV
                 lblAverage.Text = Convert.ToString(average);
                 lblAverage.Visible = true;
             }
-            //if user enetrs -1, dispaly a message in the Message Box that the program eneded and disable the button
+            //if user enetrs -1, dispaly a message in the Message 
             else if (userMark == -1)
             {
                 MessageBox.Show("Running Average ended");
+                //disable the button and hide the average label
                 btnCheck.Enabled = false;
                 lblAverage.Visible = false;
+                //clear the text box
+                txtAnswer.Text = "";
             }
         }
     }
